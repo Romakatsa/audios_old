@@ -14,8 +14,8 @@ import java.util.stream.Stream;
 public class StreamScrapper {
 
     public static final String URL = "https://vk.com/al_audio.php";
-    public static final String file_in = "src/users.txt";
-    public static final String file_out = "src/artists.txt";
+    public static final String file_in = "src/main/java/users.txt";
+    public static final String file_out = "src/main/java/artists.txt";
     static String format = "access_hash=&act=load_section&al=1&claim=0&offset=1&owner_id=%s&playlist_id=-1&type=playlist";
 
     public static int stream_scrap() throws IOException {
